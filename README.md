@@ -67,6 +67,17 @@ purpose of to creating framework
 - Stay updated with the latest trends and tools in automation.
 
   
-   
+ ** **Choose to testcases to automate****
+  1. Sanity Test cases (P1)
+  2. Data Driven test Cases (P2)
+  3. Regression TestCases (P3)
+  4. Any other Test cases (P4) 
+
+**Design and development of framework**
+**Execution**
+1.Locally 
+2.remotely 
+**Maintenace**
+
    
    
