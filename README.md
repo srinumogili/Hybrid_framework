@@ -65,6 +65,8 @@ purpose of to creating framework
 - Collect feedback and analyze the effectiveness of the automation framework.
 - Implement improvements based on feedback and new requirements.
 - Stay updated with the latest trends and tools in automation.
+
+  
    
    
    
