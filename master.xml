@@ -2,11 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-	<parameter name="os" value="linux"/>
+	<parameter name="os" value="windows"/>
 	<parameter name="browser" value="chrome"/>
-	
+
     <classes>
-      <class name="TestCases.TC_001Loginpage"/>
+    <!-- <class name="TestCases.TC_001opencartRegistartion"/>
+      <class name="TestCases.Tc_002OpencartLogin"/> -->
+      <class name="TestCases.TC_003OpencartLoginDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

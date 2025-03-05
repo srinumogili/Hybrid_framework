@@ -2,3 +2,175 @@
 2025-02-26 17:02:30 [main] INFO  - Click on my account registration
 2025-02-26 17:02:30 [main] INFO  - ***enter Registration details***
 2025-02-26 17:02:34 [main] INFO  - Browser closed successfully
+2025-03-04 12:24:04 [main] INFO  - browser launched sucssfully 
+2025-03-04 12:24:04 [main] INFO  - Click on my account registration
+2025-03-04 12:24:05 [main] INFO  - ***enter Registration details***
+2025-03-04 12:24:08 [main] INFO  - Browser closed successfully
+2025-03-04 12:31:48 [main] INFO  - browser launched.......  
+2025-03-04 12:31:48 [main] INFO  - Click on my account registration
+2025-03-04 12:31:49 [main] INFO  - ***enter Registration details***
+2025-03-04 12:31:52 [main] INFO  - Browser closed successfully
+2025-03-04 12:32:19 [main] INFO  - browser launched.......  
+2025-03-04 12:32:19 [main] INFO  - Click on my account registration
+2025-03-04 12:32:19 [main] INFO  - ***enter Registration details***
+2025-03-04 12:32:24 [main] INFO  - Browser closed successfully
+2025-03-04 12:33:04 [main] INFO  - browser launched.......  
+2025-03-04 12:33:04 [main] INFO  - Click on my account registration
+2025-03-04 12:33:04 [main] INFO  - ***enter Registration details***
+2025-03-04 12:33:08 [main] INFO  - Browser closed successfully
+2025-03-04 12:34:01 [main] INFO  - browser launched.......  
+2025-03-04 12:34:01 [main] INFO  - Click on my account registration
+2025-03-04 12:34:02 [main] INFO  - ***enter Registration details***
+2025-03-04 12:34:06 [main] INFO  - Browser closed successfully
+2025-03-04 12:34:08 [main] INFO  - browser launched.......  
+2025-03-04 12:34:08 [main] INFO  - Click on my account registration
+2025-03-04 12:34:09 [main] INFO  - ***enter Registration details***
+2025-03-04 12:34:12 [main] INFO  - Browser closed successfully
+2025-03-04 12:34:14 [main] INFO  - browser launched.......  
+2025-03-04 12:34:14 [main] INFO  - Click on my account registration
+2025-03-04 12:34:15 [main] INFO  - ***enter Registration details***
+2025-03-04 12:34:19 [main] INFO  - Browser closed successfully
+2025-03-04 12:42:29 [TestNG-tests-1] INFO  - browser launched.......  
+2025-03-04 12:42:29 [TestNG-tests-2] INFO  - browser launched.......  
+2025-03-04 12:42:29 [TestNG-tests-2] INFO  - Click on my account registration
+2025-03-04 12:42:30 [TestNG-tests-1] INFO  - Click on my account registration
+2025-03-04 12:42:30 [TestNG-tests-2] INFO  - ***enter Registration details***
+2025-03-04 12:42:30 [TestNG-tests-1] INFO  - ***enter Registration details***
+2025-03-04 12:42:33 [TestNG-tests-3] INFO  - browser launched.......  
+2025-03-04 12:42:33 [TestNG-tests-3] INFO  - Click on my account registration
+2025-03-04 12:42:33 [TestNG-tests-3] INFO  - ***enter Registration details***
+2025-03-04 12:42:34 [TestNG-tests-1] INFO  - Browser closed successfully
+2025-03-04 12:42:35 [TestNG-tests-2] INFO  - Browser closed successfully
+2025-03-04 12:42:37 [TestNG-tests-3] INFO  - Browser closed successfully
+2025-03-04 13:06:50 [main] INFO  - browser launched.......  
+2025-03-04 13:06:50 [main] INFO  - Click on my account registration
+2025-03-04 13:06:51 [main] INFO  - ***enter Registration details***
+2025-03-04 13:06:54 [main] INFO  - Browser closed successfully
+2025-03-04 22:57:50 [main] INFO  - browser launched.......  
+2025-03-04 22:57:50 [main] INFO  - Click on my account registration
+2025-03-04 22:57:52 [main] INFO  - ***enter Registration details***
+2025-03-04 22:57:56 [main] INFO  - Browser closed successfully
+2025-03-04 22:58:00 [main] INFO  - browser launched.......  
+2025-03-04 22:58:02 [main] INFO  - Browser closed successfully
+2025-03-04 23:05:25 [main] INFO  - browser launched.......  
+2025-03-04 23:05:26 [main] INFO  - Click on my account registration
+2025-03-04 23:05:26 [main] INFO  - ***enter Registration details***
+2025-03-04 23:05:30 [main] INFO  - Browser closed successfully
+2025-03-04 23:05:33 [main] INFO  - browser launched.......  
+2025-03-04 23:05:33 [main] INFO  - *** Login Started *****
+2025-03-04 23:05:35 [main] INFO  - ****Login successfully****
+2025-03-04 23:05:35 [main] INFO  - Browser closed successfully
+2025-03-05 12:00:46 [main] INFO  - browser launched.......  
+2025-03-05 12:00:46 [main] INFO  - Click on my account registration
+2025-03-05 12:00:47 [main] INFO  - ***enter Registration details***
+2025-03-05 12:00:50 [main] INFO  - Browser closed successfully
+2025-03-05 12:00:52 [main] INFO  - browser launched.......  
+2025-03-05 12:00:52 [main] INFO  - *** Login Started *****
+2025-03-05 12:00:53 [main] INFO  - ****Login successfully****
+2025-03-05 12:00:53 [main] INFO  - Browser closed successfully
+2025-03-05 12:00:55 [main] INFO  - browser launched.......  
+2025-03-05 12:00:55 [main] INFO  - Browser closed successfully
+2025-03-05 12:01:44 [main] INFO  - browser launched.......  
+2025-03-05 12:01:44 [main] INFO  - Browser closed successfully
+2025-03-05 12:05:05 [main] INFO  - browser launched.......  
+2025-03-05 12:05:06 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:05:06 [main] INFO  - *** Login Started *****
+2025-03-05 12:05:08 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:05:08 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:05:08 [main] INFO  - *** Login Started *****
+2025-03-05 12:05:18 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:05:18 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:05:18 [main] INFO  - *** Login Started *****
+2025-03-05 12:05:29 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:05:29 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:05:29 [main] INFO  - *** Login Started *****
+2025-03-05 12:05:40 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:05:40 [main] INFO  - *** Login Started *****
+2025-03-05 12:05:51 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:05:51 [main] INFO  - Browser closed successfully
+2025-03-05 12:07:08 [main] INFO  - browser launched.......  
+2025-03-05 12:07:09 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:07:09 [main] INFO  - *** Login Started *****
+2025-03-05 12:07:10 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:07:10 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:07:10 [main] INFO  - *** Login Started *****
+2025-03-05 12:07:21 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:07:21 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:07:21 [main] INFO  - *** Login Started *****
+2025-03-05 12:07:31 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:07:31 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:07:31 [main] INFO  - *** Login Started *****
+2025-03-05 12:07:42 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:07:42 [main] INFO  - *** Login Started *****
+2025-03-05 12:07:53 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:07:53 [main] INFO  - Browser closed successfully
+2025-03-05 12:24:20 [main] INFO  - browser launched.......  
+2025-03-05 12:24:20 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:24:20 [main] INFO  - *** Login Started *****
+2025-03-05 12:24:22 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:24:22 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:24:22 [main] INFO  - *** Login Started *****
+2025-03-05 12:24:33 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:24:33 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:24:33 [main] INFO  - *** Login Started *****
+2025-03-05 12:24:43 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:24:43 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:24:43 [main] INFO  - *** Login Started *****
+2025-03-05 12:24:54 [main] INFO  - *******Starting TC_001_LoginDDt****8
+2025-03-05 12:24:54 [main] INFO  - *** Login Started *****
+2025-03-05 12:25:05 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:25:05 [main] INFO  - Browser closed successfully
+2025-03-05 12:34:27 [main] INFO  - browser launched.......  
+2025-03-05 12:34:28 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:34:28 [main] INFO  - *** Login Started *****
+2025-03-05 12:34:29 [main] INFO  -  Login successful for valid credentials: abc1234@gmail.com
+2025-03-05 12:34:29 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:34:29 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:34:29 [main] INFO  - *** Login Started *****
+2025-03-05 12:34:40 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:34:40 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:34:40 [main] INFO  - *** Login Started *****
+2025-03-05 12:34:51 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:34:51 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:34:51 [main] INFO  - *** Login Started *****
+2025-03-05 12:35:02 [main] ERROR - ❌ Expected successful login, but login failed for: Lakshmi@gmail.com
+2025-03-05 12:35:02 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:35:02 [main] INFO  - *** Login Started *****
+2025-03-05 12:35:13 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:35:13 [main] INFO  - Browser closed successfully
+2025-03-05 12:36:15 [main] INFO  - browser launched.......  
+2025-03-05 12:36:15 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:36:15 [main] INFO  - *** Login Started *****
+2025-03-05 12:36:17 [main] INFO  -  Login successful for valid credentials: abc1234@gmail.com
+2025-03-05 12:36:17 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:36:17 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:36:17 [main] INFO  - *** Login Started *****
+2025-03-05 12:36:27 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:36:27 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:36:27 [main] INFO  - *** Login Started *****
+2025-03-05 12:36:38 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:36:38 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:36:38 [main] INFO  - *** Login Started *****
+2025-03-05 12:36:49 [main] ERROR - ❌ Expected successful login, but login failed for: Lakshmi@gmail.com
+2025-03-05 12:36:49 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:36:49 [main] INFO  - *** Login Started *****
+2025-03-05 12:37:00 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:37:00 [main] INFO  - Browser closed successfully
+2025-03-05 12:41:19 [main] INFO  - browser launched.......  
+2025-03-05 12:41:20 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:41:20 [main] INFO  - *** Login Started *****
+2025-03-05 12:41:21 [main] INFO  -  Login successful for valid credentials: abc1234@gmail.com
+2025-03-05 12:41:21 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:41:21 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:41:21 [main] INFO  - *** Login Started *****
+2025-03-05 12:41:32 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:41:32 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:41:32 [main] INFO  - *** Login Started *****
+2025-03-05 12:41:43 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:41:43 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:41:43 [main] INFO  - *** Login Started *****
+2025-03-05 12:41:53 [main] ERROR - ❌ Expected successful login, but login failed for: Lakshmi@gmail.com
+2025-03-05 12:41:53 [main] INFO  - *******Starting TC_003_LoginDDt****8
+2025-03-05 12:41:53 [main] INFO  - *** Login Started *****
+2025-03-05 12:42:04 [main] INFO  - *****Finished TC_003_LoginDDT****
+2025-03-05 12:42:04 [main] INFO  - Browser closed successfully

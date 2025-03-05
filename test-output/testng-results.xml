@@ -1,25 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-26T17:02:26 IST" name="Default suite" finished-at="2025-02-26T17:02:34 IST" duration-ms="8134">
+  <suite started-at="2025-03-05T12:41:17 IST" name="Suite" finished-at="2025-03-05T12:42:04 IST" duration-ms="47581">
     <groups>
     </groups>
-    <test started-at="2025-02-26T17:02:26 IST" name="Default test" finished-at="2025-02-26T17:02:34 IST" duration-ms="8134">
-      <class name="TestCases.TC_001opencartRegistartion">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.TC_001opencartRegistartion@909217e]" started-at="2025-02-26T17:02:26 IST" name="setup" finished-at="2025-02-26T17:02:29 IST" duration-ms="3241" status="PASS">
+    <test started-at="2025-03-05T12:41:17 IST" name="Test" finished-at="2025-03-05T12:42:04 IST" duration-ms="47581">
+      <class name="TestCases.TC_003OpencartLoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:17 IST" name="setup" finished-at="2025-03-05T12:41:19 IST" duration-ms="2248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homepage()[pri:0, instance:TestCases.TC_001opencartRegistartion@909217e]" started-at="2025-02-26T17:02:29 IST" name="homepage" finished-at="2025-02-26T17:02:34 IST" duration-ms="4593" status="PASS">
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:20 IST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2025-03-05T12:41:21 IST" duration-ms="1326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homepage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC_001opencartRegistartion@909217e]" started-at="2025-02-26T17:02:34 IST" name="teardown" finished-at="2025-02-26T17:02:34 IST" duration-ms="246" status="PASS">
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:21 IST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2025-03-05T12:41:32 IST" duration-ms="10702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[notvalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:32 IST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2025-03-05T12:41:43 IST" duration-ms="10709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lakshmi123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[notvalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:43 IST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2025-03-05T12:41:53 IST" duration-ms="10791" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lakshmi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed: Expected successful login but login failed.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed: Expected successful login but login failed.
+at org.testng.Assert.fail(Assert.java:111)
+at TestCases.TC_003OpencartLoginDDT.verify_LoginDDT(TC_003OpencartLoginDDT.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:53 IST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2025-03-05T12:42:04 IST" duration-ms="10719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sri123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[notvalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:42:04 IST" name="teardown" finished-at="2025-03-05T12:42:04 IST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TestCases.TC_001opencartRegistartion -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- TestCases.TC_003OpencartLoginDDT -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
