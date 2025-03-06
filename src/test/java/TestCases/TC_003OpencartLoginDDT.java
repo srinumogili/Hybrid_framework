@@ -9,17 +9,17 @@ import pageObjects.Loginpage;
 import utilites.DataProviders;
 
 public class TC_003OpencartLoginDDT extends Baseclas {
-    @Test(dataProvider="LoginData",dataProviderClass=DataProviders.class)
+    @Test(dataProvider="LoginData",dataProviderClass=DataProviders.class,groups="Dataprovider")
 	public void verify_LoginDDT(String email,String Pwd, String exp) {
 
     logger.info("*******Starting TC_003_LoginDDt****8");
     try {
-    	//Homepage
+
         logger.info("*** Login Started *****");
 		 Homepage hp= new Homepage(driver);
 		 hp.clickMyAccount();
 		 hp.clickLogin();
-		 //Loginpage
+
 		 Loginpage login = new Loginpage(driver);
 		 login.setemail(email);
 		 login.setpassword(Pwd);

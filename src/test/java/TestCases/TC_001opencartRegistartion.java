@@ -8,14 +8,14 @@ import pageObjects.Homepage;
 
 public class TC_001opencartRegistartion extends Baseclas{
 
-	@Test
+	@Test(groups={"Sanity","Master"})
 	 public void homepage() throws InterruptedException{
 		try {
 		 Homepage hp= new Homepage(driver);
 		 hp.clickMyAccount();
 		 logger.info("Click on my account registration");
 		 hp.clickRegister();
-		 
+
 		 AccountRegistrationPage regpage= new AccountRegistrationPage(driver);
 		 regpage.enterfirstname(randomstring().toUpperCase());
 		 logger.info("***enter Registration details***");
@@ -36,12 +36,12 @@ public class TC_001opencartRegistartion extends Baseclas{
 			 logger.debug("debugging the code");
 			 logger.error("Test Failed");
 		 }
-		 
+
 		}
 		 catch (Exception e)
 		 {
 			 Assert.fail();
-			
+
 		 }
 		}
 		}

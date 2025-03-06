@@ -8,7 +8,7 @@ import pageObjects.Homepage;
 import pageObjects.Loginpage;
 
 public class Tc_002OpencartLogin extends Baseclas {
-@Test
+@Test(groups= {"Regression","Master"})
 	 public void verify_Login() {
 			//Homepage
 	         logger.info("*** Login Started *****");

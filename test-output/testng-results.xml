@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-05T12:41:17 IST" name="Suite" finished-at="2025-03-05T12:42:04 IST" duration-ms="47581">
+  <suite started-at="2025-03-06T17:11:41 IST" name="Suite" finished-at="2025-03-06T17:12:04 IST" duration-ms="23019">
     <groups>
+      <group name="Master">
+        <method signature="TC_001opencartRegistartion.homepage()[pri:0, instance:TestCases.TC_001opencartRegistartion@1caa0244]" name="homepage" class="TestCases.TC_001opencartRegistartion"/>
+        <method signature="TC_001opencartRegistartion.homepage()[pri:0, instance:TestCases.TC_001opencartRegistartion@4bdeaabb]" name="homepage" class="TestCases.TC_001opencartRegistartion"/>
+        <method signature="TC_001opencartRegistartion.homepage()[pri:0, instance:TestCases.TC_001opencartRegistartion@65987993]" name="homepage" class="TestCases.TC_001opencartRegistartion"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_001opencartRegistartion.homepage()[pri:0, instance:TestCases.TC_001opencartRegistartion@1caa0244]" name="homepage" class="TestCases.TC_001opencartRegistartion"/>
+        <method signature="TC_001opencartRegistartion.homepage()[pri:0, instance:TestCases.TC_001opencartRegistartion@4bdeaabb]" name="homepage" class="TestCases.TC_001opencartRegistartion"/>
+        <method signature="TC_001opencartRegistartion.homepage()[pri:0, instance:TestCases.TC_001opencartRegistartion@65987993]" name="homepage" class="TestCases.TC_001opencartRegistartion"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-03-05T12:41:17 IST" name="Test" finished-at="2025-03-05T12:42:04 IST" duration-ms="47581">
-      <class name="TestCases.TC_003OpencartLoginDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:17 IST" name="setup" finished-at="2025-03-05T12:41:19 IST" duration-ms="2248" status="PASS">
+    <test started-at="2025-03-06T17:11:41 IST" name="Chrometest" finished-at="2025-03-06T17:12:04 IST" duration-ms="23015">
+      <class name="TestCases.TC_001opencartRegistartion">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_001opencartRegistartion@1caa0244]" started-at="2025-03-06T17:11:42 IST" name="setup" finished-at="2025-03-06T17:11:49 IST" duration-ms="7517" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
@@ -23,95 +33,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:20 IST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2025-03-05T12:41:21 IST" duration-ms="1326" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc1234@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:21 IST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2025-03-05T12:41:32 IST" duration-ms="10702" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[notvalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:32 IST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2025-03-05T12:41:43 IST" duration-ms="10709" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Lakshmi123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lakshmi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[notvalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:43 IST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2025-03-05T12:41:53 IST" duration-ms="10791" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Lakshmi@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="homepage()[pri:0, instance:TestCases.TC_001opencartRegistartion@1caa0244]" started-at="2025-03-06T17:11:49 IST" name="homepage" finished-at="2025-03-06T17:12:02 IST" duration-ms="12409" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Test Failed: Expected successful login but login failed.]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test Failed: Expected successful login but login failed.
+              <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:111)
-at TestCases.TC_003OpencartLoginDDT.verify_LoginDDT(TC_003OpencartLoginDDT.java:41)
+at org.testng.Assert.fail(Assert.java:116)
+at TestCases.TC_001opencartRegistartion.homepage(TC_001opencartRegistartion.java:43)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -128,50 +59,151 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method signature="verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:41:53 IST" name="verify_LoginDDT" data-provider="LoginData" finished-at="2025-03-05T12:42:04 IST" duration-ms="10719" status="PASS">
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC_001opencartRegistartion@1caa0244]" started-at="2025-03-06T17:12:02 IST" name="teardown" finished-at="2025-03-06T17:12:04 IST" duration-ms="1834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC_001opencartRegistartion -->
+    </test> <!-- Chrometest -->
+    <test started-at="2025-03-06T17:11:41 IST" name="edgetest" finished-at="2025-03-06T17:12:04 IST" duration-ms="23019">
+      <class name="TestCases.TC_001opencartRegistartion">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_001opencartRegistartion@4bdeaabb]" started-at="2025-03-06T17:11:42 IST" name="setup" finished-at="2025-03-06T17:11:48 IST" duration-ms="5899" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sri123@gmail.com]]>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[xyz]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[notvalid]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_LoginDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC_003OpencartLoginDDT@cc43f62]" started-at="2025-03-05T12:42:04 IST" name="teardown" finished-at="2025-03-05T12:42:04 IST" duration-ms="158" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="homepage()[pri:0, instance:TestCases.TC_001opencartRegistartion@4bdeaabb]" started-at="2025-03-06T17:11:48 IST" name="homepage" finished-at="2025-03-06T17:12:02 IST" duration-ms="14535" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at TestCases.TC_001opencartRegistartion.homepage(TC_001opencartRegistartion.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC_001opencartRegistartion@4bdeaabb]" started-at="2025-03-06T17:12:03 IST" name="teardown" finished-at="2025-03-06T17:12:04 IST" duration-ms="1472" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to stop.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8e92276a-ce03-41df-bcaa-e220d7746c75, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:debuggerAddress: 127.0.0.1:16055, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16540, moz:profile: C:\Users\srinu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:16055/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8e92276a-ce03-41df-bcaa-e220d7746c75, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:debuggerAddress: 127.0.0.1:16055, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16540, moz:profile: C:\Users\srinu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:16055/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:404)
+at TestCases.Baseclas.teardown(Baseclas.java:103)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@da655a0[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4c9b5f9b[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda$648/0x00000008003936d8@48a4d2d0]] rejected from java.util.concurrent.ThreadPoolExecutor@2a107c0d[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 91]
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+... 27 more
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@da655a0[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4c9b5f9b[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda$648/0x00000008003936d8@48a4d2d0]] rejected from java.util.concurrent.ThreadPoolExecutor@2a107c0d[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 91]
+at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.executeAsync(JdkHttpClient.java:380)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:409)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TestCases.TC_003OpencartLoginDDT -->
-    </test> <!-- Test -->
+      </class> <!-- TestCases.TC_001opencartRegistartion -->
+    </test> <!-- edgetest -->
   </suite> <!-- Suite -->
 </testng-results>
