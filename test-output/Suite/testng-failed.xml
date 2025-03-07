@@ -4,19 +4,6 @@
   <listeners>
     <listener class-name="utilites.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Chrometest(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="TestCases.TC_001opencartRegistartion">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="homepage"/>
-        </methods>
-      </class> <!-- TestCases.TC_001opencartRegistartion -->
-    </classes>
-  </test> <!-- Chrometest(failed) -->
   <test thread-count="5" parallel="tests" name="edgetest(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
