@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Integration for Test Automation</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            margin: 2em; 
+            color: #ffffff; 
+            background-color: #121212;
+        }
+        h1, h2 { color: #1E90FF; }
+        p { margin-bottom: 1em; color: #cccccc; }
+        pre { background-color: #1e1e1e; padding: 1em; border-radius: 5px; overflow-x: auto; color: #00FF00; }
+        code { font-family: 'Courier New', Courier, monospace; color: #FF8800; }
+        strong { color: #ff4444; }
+        ol, ul { margin-left: 1.5em; color: #cccccc; }
+        ol li, ul li { margin-bottom: 0.5em; }
+        .summary {
+            border-top: 2px solid #1E90FF;
+            padding-top: 1em;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>CI/CD Integration for Test Automation</h1>
+    
+    <p>How to integrate automation scripts with Jenkins, GitHub Actions, and Docker for continuous testing...</p>
+
+    <h2>1. Setting Up Jenkins for Test Automation</h2>
+    <p>Jenkins is a powerful CI/CD tool that automates test execution in a pipeline.</p>
+    <p><strong>Installation & Setup:</strong></p>
+    <ul>
+        <li>Download and install Jenkins from <a href="https://www.jenkins.io/download/" target="_blank">Jenkins Official Site</a>.</li>
+        <li>Install required plugins: TestNG, JUnit, Allure Reports.</li>
+        <li>Configure a job to pull test scripts from GitHub.</li>
+        <li>Set up scheduled or trigger-based test execution.</li>
+    </ul>
+    
+    <h2>2. Using GitHub Actions for Automation</h2>
+    <p>GitHub Actions allows running automation scripts within CI/CD workflows.</p>
+    <p><strong>Example GitHub Actions YAML:</strong></p>
+    <pre>
+        <code>
+name: Run Selenium Tests
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Set up Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '11'
+      - name: Run Tests
+        run: mvn test
+        </code>
+    </pre>
+
+    <h2>3. Containerizing Test Execution with Docker</h2>
+    <p>Docker enables running tests in isolated containers.</p>
+    <p><strong>Installation:</strong></p>
+    <ul>
+        <li>Download Docker from <a href="https://www.docker.com/get-started/" target="_blank">Docker Official Site</a>.</li>
+        <li>Install Docker and verify installation using:</li>
+        <pre><code>docker --version</code></pre>
+    </ul>
+    <p><strong>Basic Docker Commands:</strong></p>
+    <ul>
+        <li>Pull an image: <code>docker pull selenium/standalone-chrome</code></li>
+        <li>Run a container: <code>docker run -d -p 4444:4444 selenium/standalone-chrome</code></li>
+        <li>List running containers: <code>docker ps</code></li>
+        <li>Stop a container: <code>docker stop &lt;container_id&gt;</code></li>
+    </ul>
+    <p><strong>Advanced Docker Usage:</strong></p>
+    <ul>
+        <li>Run Selenium Grid with Docker Compose.</li>
+        <li>Mount volumes for test reports.</li>
+        <li>Run tests inside a Docker container.</li>
+    </ul>
+    
+    <h2>4. Essential Git Commands for CI/CD</h2>
+    <p>Git is used to version control automation scripts and integrate them into CI/CD pipelines.</p>
+    <p><strong>Installation:</strong></p>
+    <ul>
+        <li>Download Git from <a href="https://git-scm.com/downloads" target="_blank">Git Official Site</a>.</li>
+        <li>Verify installation using:</li>
+        <pre><code>git --version</code></pre>
+    </ul>
+    <p><strong>Basic Git Commands:</strong></p>
+    <ul>
+        <li>Initialize a Git repository: <code>git init</code></li>
+        <li>Clone a repository: <code>git clone &lt;repo_url&gt;</code></li>
+        <li>Stage changes: <code>git add .</code></li>
+        <li>Commit changes: <code>git commit -m "Your commit message"</code></li>
+        <li>Push to remote repository: <code>git push origin main</code></li>
+        <li>Pull latest changes: <code>git pull origin main</code></li>
+        <li>Rebase & Squash: <code>git rebase -i HEAD~3</code></li>
+        <li>Handling Merge Conflicts: <code>git merge --abort</code></li>
+        <li>Creating Branches: <code>git checkout -b feature-branch</code></li>
+    </ul>
+    
+    <h2>5. Running Tests in CI/CD Pipelines</h2>
+    <p>Best practices for test automation in CI/CD:</p>
+    <ul>
+        <li>Run tests in parallel to reduce execution time.</li>
+        <li>Integrate reporting tools like Allure, ExtentReports.</li>
+        <li>Ensure test stability before deploying builds.</li>
+    </ul>
+    
+    <h2>6. Real-World CI/CD Examples</h2>
+    <p>Companies using Selenium with CI/CD:</p>
+    <ul>
+        <li><strong>Netflix:</strong> Uses Jenkins and Spinnaker for automated testing.</li>
+        <li><strong>Amazon:</strong> Implements continuous testing with AWS CodePipeline.</li>
+        <li><strong>Google:</strong> Leverages Kubernetes and Selenium Grid for large-scale test execution.</li>
+        <li><strong>Facebook:</strong> Uses custom-built CI tools for UI automation.</li>
+    </ul>
+
+    <div class="summary">
+        <h2>Key Takeaways</h2>
+        <ul>
+            <li>Use Jenkins to automate test execution in pipelines.</li>
+            <li>Leverage GitHub Actions for seamless test execution on commits.</li>
+            <li>Containerize tests using Docker for reproducibility.</li>
+            <li>Utilize Git for version control and CI/CD integration.</li>
+            <li>Optimize test execution and reporting for CI/CD efficiency.</li>
+        </ul>
+    </div>
+
+</body>
+</html>

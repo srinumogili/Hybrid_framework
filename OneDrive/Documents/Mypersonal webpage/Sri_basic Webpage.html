@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinu Mogili | Test Automation Engineer</title>
+    <style>
+        /* Global Styles */
+        body {
+            background-color: #0D1117;
+            color: #E6EDF3;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        /* Navigation Bar */
+        nav {
+            background-color: #161B22;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #58A6FF;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #E6EDF3;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #58A6FF;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #161B22;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #8B949E;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #58A6FF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #1F6FEB;
+        }
+
+        /* Sections */
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .section {
+            text-align: center;
+            margin-bottom: 50px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s ease-in-out forwards;
+        }
+
+        h2 {
+            color: #58A6FF;
+            font-size: 28px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #161B22;
+            color: #8B949E;
+        }
+
+        footer a {
+            color: #58A6FF;
+            text-decoration: none;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Srinu Mogili</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Test Automation Engineer | Selenium | Java | Cypress</h1>
+        <p>Passionate about building robust automation frameworks and delivering quality software.</p>
+        <a href="https://drive.google.com/file/d/1P6EhFGLbUSoMrdNuHwkwtztO2Yjh2g70/view?usp=drive_link" class="btn" download>Download Resume</a>
+    </div>
+
+    <!-- About Me -->
+    <div class="container">
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <p>With 3 years of experience in automation testing, I specialize in designing scalable automation frameworks using Selenium, Java, and Cypress.</p>
+        </div>  
+
+        <!-- Skills -->
+        <div class="section" id="skills">
+            <h2>Skills</h2>
+            <p>Selenium | Java | TestNG | Cypress | Cucumber | Jenkins | Docker | API Testing | SQL | Git | JIRA</p>
+        </div>
+
+        <!-- Projects -->
+        <div class="section" id="projects">
+            <h2>Projects</h2>
+            <p>Explore my automation projects on <a href="https://github.com/srinumogili/Hybrid_framework" target="_blank">GitHub</a>.</p>
+        </div>
+
+        <!-- Blog -->
+        <div class="section" id="blog">
+            <h2>Latest Blog Posts</h2>
+            <div id="blog-container"></div>
+        </div>
+        
+        <!-- Link the JavaScript file -->
+        <script src="blogs.js"></script>
+
+        <!-- Contact -->
+        <div class="section" id="contact">
+            <h2>Contact</h2>
+            <p>Email: Srinunaidumogili@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/srinumogili/" target="_blank">My LinkedIn</a></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Srinu Mogili | Powered by Passion for Automation</p>
+    </footer>
+
+</body>
+</html>
